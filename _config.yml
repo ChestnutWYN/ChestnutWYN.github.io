@@ -11,7 +11,7 @@ github_repo: "https://github.com/ChestnutWYN/ChestnutWYN.github.io.git" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Thinking will not overcome fear, but action will!"
 sidebar-avatar: /img/SummerJapanAndMe.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -105,7 +105,7 @@ friends: [
         title: "CSDN",
         href: "https://blog.csdn.net/chsenut_wu"
     },{
-        title: "知乎NLP",
+        title: "学习ML的皮皮虾",
         href: "https://zhuanlan.zhihu.com/bupt-pris731"
     }
 ]
