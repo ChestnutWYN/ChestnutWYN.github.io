@@ -1,0 +1,68 @@
+---
+layout:     post
+title:      Tkinter
+subtitle:    "\"莫烦教程整理\""
+date:       2020-04-16
+author:     Chestnut
+header-img: img/post-bg-2015.jpg
+catalog: true
+tags:
+    - python
+---
+
+> “🙉🙉🙉 ”
+
+
+## 前言
+
+# Anaconda
+### ⭐Anaconda安装记录
+**1. 到[Anaconda官网](https://www.anaconda.com/distribution/)或[清华源地址](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=A)下载所需的Anaconda 版本至自己的电脑。
+2. 在Linux里面.sh文件是可执行的脚本文件，需要用命令bash来进行安装，在当前目录文件夹下输入**：
+```python
+bash Anaconda3-2019.10-Linux-x86_64.sh
+```
+一直按Enter继续，接受许可条款。 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200416114405171.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0Noc2VudXRfd3U=,size_16,color_FFFFFF,t_70)
+installation finished显示安装完成，接下来会提示是否添加环境变量，输入yes，否则还得自己配环境变量：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200416114434337.png)
+根据提示，重新打开终端，ssh登入远程账号即可生效
+3. 查看是否安装成功
+输入 python 命令，可见python版本为anaconda中的python版本
+
+<p id = "build"></p>
+---
+
+## 正文
+
+接下来说说搭建这个博客的技术细节。  
+
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
+
+其优点非常明显：
+
+* **Markdown** 带来的优雅写作体验
+* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
+* Jekyll 的自定制非常容易，基本就是个模版引擎
+
+
+
+---
+
+
+主题我直接 Downlosd 了 [Hux的博客主题](https://huangxuan.me/) 的进行修改，简单粗暴，不过遇到了很多坑😂，好在都填完了。。。
+
+本地调试环境需要 `gem install jekyll`，结果 rubygem 的源居然被墙了，~~后来手动改成了我大淘宝的镜像源才成功~~，淘宝的源已经[停止维护](https://gems.ruby-china.org/)，换成了OSChina的源 `https://gems.ruby-china.org/`。
+
+
+## 后记
+
+最后，感谢 Hux 提供的的 [Blog 主题](https://github.com/Huxpro/huxpro.github.io)
+
+如果你恰好逛到了这里，希望你也能喜欢这个博客主题，感兴趣的话可以自己动手搭建一个。
+
+—— BY 后记于 2017.2
+
+
