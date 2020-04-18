@@ -21,6 +21,9 @@ tags:
 
 针对NLU泛化能力差的问题，作者在BERT上将 Intent classification 和 Slot Filling 联合学习（利用BERT的hidden state），进行fine-tuning。
 
+## Base Model
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200418194937466.png)
+
 ## Joint Intent Classification and Slot Filling
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200418194043305.png)
