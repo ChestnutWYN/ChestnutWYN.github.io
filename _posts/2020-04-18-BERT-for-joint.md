@@ -37,6 +37,7 @@ Data Sets: ATIS, Snips
 
 ![探讨Joint和Epoches的影响](https://img-blog.csdnimg.cn/20200418192237740.png)
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200418194856679.png)
 
 ---
 
